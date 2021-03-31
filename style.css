@@ -13,7 +13,7 @@
 .main-pic img {
   width: 100%;
 }
-.main-pic .more_inf {
+.main-pic__more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -24,7 +24,7 @@
   }
 
 }
-.centered-main-page-element {
+.wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -63,7 +63,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for="new-task"] {
+label[for="new-task__label"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
